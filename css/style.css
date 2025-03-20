@@ -1,0 +1,48 @@
+body {
+    background: url('assets/background.gif') repeat;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    color: lime;
+    font-size: 20px;
+}
+
+.splash {
+    background-color: blue;
+}
+
+.splash-container h1 {
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 3px 3px red;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
+}
+
+.logo {
+    width: 300px;
+    border: 5px solid red;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+    border: 10px solid hotpink;
+    background: yellow;
+}
+
+button {
+    background: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button:hover {
+    background: black;
+}
+
